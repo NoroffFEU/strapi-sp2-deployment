@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/products",
-      "handler": "products.find",
+      "path": "/makeups",
+      "handler": "makeup.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/products/count",
-      "handler": "products.count",
+      "path": "/makeups/count",
+      "handler": "makeup.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/products/:id",
-      "handler": "products.findOne",
+      "path": "/makeups/:id",
+      "handler": "makeup.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/products",
-      "handler": "products.create",
+      "path": "/makeups",
+      "handler": "makeup.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/products/:id",
-      "handler": "products.update",
+      "path": "/makeups/:id",
+      "handler": "makeup.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/products/:id",
-      "handler": "products.delete",
+      "path": "/makeups/:id",
+      "handler": "makeup.delete",
       "config": {
         "policies": []
       }
