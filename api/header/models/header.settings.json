@@ -1,17 +1,17 @@
 {
   "kind": "singleType",
-  "collectionName": "homes",
+  "collectionName": "headers",
   "info": {
-    "name": "Home",
-    "description": ""
+    "name": "header"
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
+  "pluginOptions": {},
   "attributes": {
-    "hero_banner": {
+    "img": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -20,10 +20,14 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
-    "hero_banner_alt_text": {
+    "title": {
       "type": "string"
+    },
+    "intro": {
+      "type": "text"
     }
   }
 }
